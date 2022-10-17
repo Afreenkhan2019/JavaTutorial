@@ -25,7 +25,7 @@ public class XLSWriting {
 		wb.close();
 
 		System.out.println("Written in File");
-		System.out.println("Written in File");
+		
 	}
 
 }
