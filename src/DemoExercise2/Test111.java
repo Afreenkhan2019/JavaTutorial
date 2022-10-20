@@ -15,7 +15,7 @@ public class Test111 {
 		scan.nextLine(); // <- reads the newline from the console
 
 		//Creating An Array With The Size Of Employees Entered By The User.
-		Employee[] E = new Employee[numberOfEmployees];
+		Employee1[] E = new Employee1[numberOfEmployees];
 
 		// Filling Out Information About Employees In Array.
 		for(int i = 0; i <= E.length-1; i++){
@@ -31,9 +31,14 @@ public class Test111 {
 		    System.out.println("Enter employee " + i + "'s overtime: ");
 		    int overtime = scan.nextInt();
 		    
-		    // create a new employee with the entered information and save in the array
-		    E[i] = new Employee(name, bday, salary, overtime);
+		     //create a new employee with the entered information and save in the array
+		    E[i] = new Employee1(name, bday, salary, overtime);
+		    
+		    E[i].showdata();
+		   
 		}
+		 
 	}
-
+	
 }
+

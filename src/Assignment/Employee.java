@@ -1,5 +1,7 @@
 package Assignment;
 
+
+
 public class Employee {
 	private String empName;
 	
@@ -13,5 +15,12 @@ public class Employee {
 	public void setEmpName(String bEmpName) {
 		empName=bEmpName;
 	}
+	// Employee --> Name and Technology
+	//Create constructor
+	//Create properties
+	//project--> Name Start Date and End date
+	//Create constructor
+	//Create properties
+	
 
 }

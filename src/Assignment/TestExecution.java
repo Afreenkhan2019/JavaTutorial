@@ -27,7 +27,7 @@ public class TestExecution {
 		Employee e= new Employee("Nandan");
 		//System.out.println(e.name);// since it is encapsulated so not printing the name directly
 			
-		System.out.println(e.getEmpName());
+		//System.out.println(e.getEmpName());
 		
 		e.setEmpName("Raghav");
 		System.out.println(e.getEmpName());
