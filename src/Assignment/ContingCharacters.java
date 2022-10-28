@@ -17,9 +17,9 @@ public class ContingCharacters {
 				}
 			}			
 			System.out.print(count+""+b.charAt(i));
-			String d= String.valueOf(b.charAt(i)).trim();
-			b=b.replaceAll(d,"");
-			count =0;	
+//			String d= String.valueOf(b.charAt(i)).trim();
+//			b=b.replaceAll(d,"");
+//			count =0;	
 			
 		}
 	}
