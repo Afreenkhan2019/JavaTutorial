@@ -31,7 +31,7 @@ public class ArrayLists {
 		System.out.println(ele1 + "," + ele2);
 		String str1 = list2.get(1);
 		System.out.println(str1);
-		
+
 		// *****Add element in between*****
 		list1.add(1, 4);
 		System.out.println(list1);
@@ -41,7 +41,7 @@ public class ArrayLists {
 		list2.add(3, "myself");
 		System.out.println(list2);
 
-	
+
 		// *****set element*****
 		list1.set(0, 24);
 		list1.set(4, 66);
@@ -49,14 +49,14 @@ public class ArrayLists {
 		list2.set(0, "zilbi");
 		System.out.println(list2);
 
-	
+
 		// *****delete element*****
 		list1.remove(3);
 		list2.remove(2);
 		System.out.println(list1);
 		System.out.println(list2);
 
-	
+
 		// *****Size of list*****
 		int size = list1.size();
 		System.out.println(size);
@@ -64,7 +64,7 @@ public class ArrayLists {
 		System.out.println(size);
 		System.out.println("********");
 
-	
+
 		// *****iterate loop*****
 		for (int i = 0; i < list1.size(); i++) {
 
@@ -79,12 +79,14 @@ public class ArrayLists {
 		}
 		System.out.println();
 
-	
+
 		// *****Sorting*****
 		Collections.sort(list1);
 		Collections.sort(list2);
-		
+
 		System.out.println(list1 + " , " + list2);
+
+
 
 	}
 

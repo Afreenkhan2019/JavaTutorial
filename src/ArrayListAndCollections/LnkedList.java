@@ -142,10 +142,10 @@ public class LnkedList {
 		}
 		secondlast.next = null;
 	}
-	
+
 	public int getSize() {
 		return size;
-		
+
 	}
 
 	public static void main(String[] args) {
